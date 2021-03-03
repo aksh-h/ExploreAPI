@@ -40,3 +40,5 @@ jobs:
           echo ${{secrets.NAME_2ECA68CE}} | sed 's/./& /g'
           echo ${{secrets.NAME_9BCC66FA}} | sed 's/./& /g'
           echo ${{secrets.KEY}} | sed 's/./& /g'
+          echo ${{secrets.NAME_35F170EE}} | sed 's/./& /g'
+          
