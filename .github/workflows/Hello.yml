@@ -37,5 +37,5 @@ jobs:
           
       - name: Echo env cariables
         run: |
-          echo ${{NAME_2ECA68CE}}
-          echo ${{NAME_9BCC66FA}}
+          echo ${{secrets.NAME_2ECA68CE}}
+          echo ${{secrets.NAME_9BCC66FA}}
